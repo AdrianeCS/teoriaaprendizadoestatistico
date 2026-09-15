@@ -1,4 +1,4 @@
-# Teoria do Aprendizado Estatístico - Team Shannon
+# Teoria do Aprendizado Estatístico - Team Shanno
 
 **Ciência de Dados · Fatec Rubens Lara - Baixada Santista**
 
