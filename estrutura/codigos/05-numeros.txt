@@ -1,0 +1,26 @@
+n=5681
+n.treino=3977 n.teste=1704
+seed=1 prop.treino=0.7
+
+=== RMSE treino (log1p) ===
+       m1        m2 
+0.6758941 0.5515802 
+
+=== RMSE teste (log1p) ===
+       m1        m2 
+0.6852271 0.5500615 
+
+=== MAE teste (horas) ===
+      m1       m2 
+22.48637 18.27458 
+
+vencedor=m2
+
+=== coef m2 (treino) ===
+(Intercept)    log.peso     log.teu 
+  0.2967638   0.3526114  -0.1073069 
+
+=== curva U: MSE teste por grau ===
+    grau1     grau2     grau3     grau4     grau5     grau6 
+0.4695361 0.4679629 0.4588457 0.4573803 0.4575310 0.4572733 
+grau.melhor.u=6

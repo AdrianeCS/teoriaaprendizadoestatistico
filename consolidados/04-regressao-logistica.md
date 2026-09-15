@@ -22,7 +22,9 @@ Números: [`04-numeros.txt`](../estrutura/codigos/04-numeros.txt).
 | 02b | Tempos do navio  | [Análise Exploratória segmentada](02b-analise-exploratoria-segmentada.md): T1, T2, **T3**, T4                                                                                      |
 | 03a | Só T3 (contínuo) | [Regressão T3 ~ peso + TEU](03a-regressao-linear-t3.md) |
 | 03b | Previsão na fila | [Previsão T3 em T1/T2](03b-previsao-fila-t3.md) |
-| 04  | Só T3 (binário)  | **Esta entrega**: [duas perguntas](#as-duas-perguntas) em sim/não                                                                                                                     |
+| 04  | Só T3 (binário)  | **Esta entrega**: [duas perguntas](#as-duas-perguntas) em sim/não |
+| 05  | Escolher modelo  | [Treino/teste + RMSE](05-avaliacao-selecao-modelos.md) |
+| 06  | Reamostragem     | [CV(5) + bootstrap](06-metodos-reamostragem.md) |
 
 
 ---
@@ -203,7 +205,8 @@ se operação longa é **provável ou não** antes do T3 começar.
 2. **Pergunta 1:** peso + TEU explicam P(T3 > 30 h); cenários e odds (Aula 05).
 3. **Pergunta 2:** mesma `glm` aplicada a navios em T1/T2; resposta binária
   antes da operação.
-4. Próximo passo: matriz de confusão e limiar de decisão.
+4. Seguinte no funil: [avaliar e escolher](05-avaliacao-selecao-modelos.md)
+   o `lm` com treino/teste; depois [CV e bootstrap](06-metodos-reamostragem.md).
 
 ---
 

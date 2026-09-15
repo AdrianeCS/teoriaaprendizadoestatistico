@@ -75,7 +75,9 @@ Mesmo padrão do Projeto Integrador III (mesmo professor).
 │       ├── 02b-analise-exploratoria-segmentada.R
 │       ├── 03a-regressao-linear-t3.R
 │       ├── 03b-previsao-fila-t3.R
-│       └── 04-regressao-logistica.R
+│       ├── 04-regressao-logistica.R
+│       ├── 05-avaliacao-selecao-modelos.R
+│       └── 06-metodos-reamostragem.R
 ├── consolidados/                 # todas as entregas .md
 │   ├── 01-dicionario-variaveis.md
 │   ├── 02a-analise-exploratoria-ampla.md
@@ -83,6 +85,8 @@ Mesmo padrão do Projeto Integrador III (mesmo professor).
 │   ├── 03a-regressao-linear-t3.md
 │   ├── 03b-previsao-fila-t3.md
 │   ├── 04-regressao-logistica.md
+│   ├── 05-avaliacao-selecao-modelos.md
+│   ├── 06-metodos-reamostragem.md
 │   └── graficos/
 ├── materiais-aulas/              # PDFs das aulas
 └── to-delete-trash/              # pasta antiga Atividades/ (lixo)
@@ -108,8 +112,10 @@ Mesmo padrão do Projeto Integrador III (mesmo professor).
 | 03a | [03a-regressao-linear-t3.md](consolidados/03a-regressao-linear-t3.md) | `03a-regressao-linear-t3.R` | Aula 04 |
 | 03b | [03b-previsao-fila-t3.md](consolidados/03b-previsao-fila-t3.md) | `03b-previsao-fila-t3.R` | Aula 04 |
 | 04 | [04-regressao-logistica.md](consolidados/04-regressao-logistica.md) | `04-regressao-logistica.R` | Aula 05 |
+| 05 | [05-avaliacao-selecao-modelos.md](consolidados/05-avaliacao-selecao-modelos.md) | `05-avaliacao-selecao-modelos.R` | Aula 06 |
+| 06 | [06-metodos-reamostragem.md](consolidados/06-metodos-reamostragem.md) | `06-metodos-reamostragem.R` | Aula 07 |
 
-Funil: dicionário → Análise Exploratória ampla → tempos T1-T4 → T3 (horas) → T3 (sim/não).
+Funil: dicionário → Análise Exploratória → T3 (horas) → T3 (sim/não) → escolha por teste → CV e bootstrap.
 
 ---
 
@@ -124,7 +130,9 @@ Rscript estrutura/codigos/02b-analise-exploratoria-segmentada.R
 Rscript estrutura/codigos/03a-regressao-linear-t3.R
 Rscript estrutura/codigos/03b-previsao-fila-t3.R
 Rscript estrutura/codigos/04-regressao-logistica.R
+Rscript estrutura/codigos/05-avaliacao-selecao-modelos.R
+Rscript estrutura/codigos/06-metodos-reamostragem.R
 ```
 
 Os scripts leem `estrutura/dataset` e gravam PNGs em `consolidados/graficos/`.
-O nome casa em tudo: `03a-regressao-linear-t3.R`, `03a-regressao-linear-t3.md` e `03a-numeros.txt` (o mesmo vale para 01, 02b, 03b e 04).
+O nome casa em tudo: `05-avaliacao-selecao-modelos.R`, `05-avaliacao-selecao-modelos.md` e `05-numeros.txt` (o mesmo vale para 01-06).

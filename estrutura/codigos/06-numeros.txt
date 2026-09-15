@@ -1,0 +1,17 @@
+n=5681
+k=5 B=2000 seed=1
+
+=== CV(5) m1 so tonelagem ===
+mse.dobras=0.4403, 0.4741, 0.4492, 0.4915, 0.4495
+CV=0.4609142 RMSE=0.6789066
+
+=== CV(5) m2 tonelagem + TEU ===
+mse.dobras=0.2887, 0.3181, 0.2953, 0.3202, 0.2974
+CV=0.3039429 RMSE=0.5513102
+vencedor=m2 (tonelagem + TEU)
+
+=== bootstrap coef log.peso ===
+beta.obs=0.3613714
+ep=0.008046102
+ic.2.5=0.3453593 ic.97.5=0.3775932
+distinguivel.de.zero=TRUE
